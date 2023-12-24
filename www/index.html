@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>SoundShift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SoundShift: リアルタイムピッチシフト</h1>
+        <div class="controls">
+            <button id="startButton">マイク入力開始</button>
+            <div>
+                <input type="radio" id="pitchDown" name="pitchShift" value="down" checked>
+                <label for="pitchDown">半音下</label>
+                <input type="radio" id="pitchUp" name="pitchShift" value="up">
+                <label for="pitchUp">半音上</label>
+            </div>
+        </div>
+        <div id="status"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

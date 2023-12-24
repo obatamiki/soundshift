@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #startButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 20px; /* ボタンとラジオボタンの間の隙間を調整 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px; /* スマートフォンでの操作を考慮してサイズを調整 */
+  }
+  
+  #startButton.stopped {
+    background-color: #f44336;
+  }
+  
+  #startButton:hover {
+    background-color: #45a049;
+  }
+  
+  #startButton.stopped:hover {
+    background-color: #d32f2f;
+  }
+  
+  .pitch-shift-container {
+    margin-bottom: 20px;
+  }
+  
+  .pitch-shift-option {
+    margin: 10px;
+    font-size: 16px; /* スマートフォンでの操作を考慮してサイズを調整 */
+  }
+  
+  #status {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+  }
+  
